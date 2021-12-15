@@ -6,7 +6,7 @@
 /*   By: erayl <erayl@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/27 23:09:49 by erayl             #+#    #+#             */
-/*   Updated: 2021/12/05 16:06:50 by erayl            ###   ########.fr       */
+/*   Updated: 2021/12/15 15:22:40 by erayl            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ typedef	struct s_swap
 	t_stack	*a;
 	t_stack	*b;
 } t_swap;
+void	smallsort(t_swap *swap);
+void	fivesort(t_swap *swap);
 void	args_to_stack(const char *arg, t_stack *a);
 t_stack	*stack_init(void);
 t_swap	*swap_init();

@@ -8,7 +8,7 @@ CFLAGS	=	-Wall -Werror -Wextra -I $(HEADER)
 LIBFT	=	libft.a
 LIBFT_DIRECTORY = ./libft/
 
-SRCS	=	main.c push.c swap.c rotate.c reverse_rotate.c stack.c argcheck.c sort.c stack0.c
+SRCS	=	main.c push.c swap.c rotate.c reverse_rotate.c stack.c argcheck.c sort.c stack0.c smallsort.c
 OBJ		=	$(patsubst %.c, %.o, $(SRCS))
 
 .PHONY	:	all clean fclean re
